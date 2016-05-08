@@ -2,6 +2,8 @@
 This was a group project at Skill Distillery.
 * My project description page:  [alexmpeterson.com/tapminder.php](http://www.alexmpeterson.com/tapminder.php)
 * My projects: [alexmpeterson.com/projects.php](http://www.alexmpeterson.com/projects.php)
+
+
 ###Purpose
 TapMinder allows it's users to remember which beers they liked, and where they had them.  The WebApp also enables users to view ratings of various beers, on a scale from 1 to 5.  There search functionality for breweries, as well as beers.
 
