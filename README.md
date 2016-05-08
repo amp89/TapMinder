@@ -12,16 +12,18 @@ TapMinder allows it's users to remember which beers they liked, and where they h
 * Administrator account control
 * Moderator brewery add / delete functionality
 * Multi-level user permissions (standard, moderator, admin) with different functionality
+
 ####Searching:
 ###### Beers
-*Search by Name, ABV, Hop Count, Style, Rating, or Brewery.
-*Leave the string (text) searches blank to view all results.
+
+* Search by Name, ABV, Hop Count, Style, Rating, or Brewery.
+* Leave the string (text) searches blank to view all results.
 
 ###### Breweries
-*Search by Name, Street, City, Zip, and neighborhood
-*Leave the string (text) searches blank to view all results.
+* Search by Name, Street, City, Zip, and neighborhood
+* Leave the string (text) searches blank to view all results.
 
-###Team
+### Team
  * Live project: (https://github.com/user/repo/blob/branch/other_file.md)
  * Angel Moreira - [Personal website](http://www.armoreira.com/)
  * Chad Arroyo - [Personal website] (http://www.chadarroyo.com/)
