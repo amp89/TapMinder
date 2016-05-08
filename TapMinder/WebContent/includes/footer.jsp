@@ -9,7 +9,8 @@
 
 <footer class="fixed-bottom-footer">
 
-WELCOME TO TAPMINDER <c:if test="${currentUser.usertype.accessLevel > 0}">| You are logged in as ${currentUser.firstname} ${currentUser.lastname}</c:if> 
+WELCOME TO TAPMINDER <c:if test="${currentUser.usertype.accessLevel > 0}">| You are logged in as ${currentUser.firstname} ${currentUser.lastname}</c:if>
+|<a target="_blank" href="http://www.alexmpeterson.com/tapminder.php"> CLICK HERE FOR MORE INFORMATION ABOUT TAPMINDER / ALEX PETERSON </a> 
 
 
 <c:if test="${currentUser.usertype.accessLevel == 2}">

@@ -56,8 +56,8 @@
 
 <body id="page-top">
 
-<!-- facebook script -->
-<%@ include file="facebookHeaderScript.jsp"%>
+	<!-- facebook script -->
+	<%@ include file="facebookHeaderScript.jsp"%>
 
 	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
@@ -70,7 +70,8 @@
 					class="icon-bar"></span>
 			</button>
 			<c:if test="${currentUser.id > 0}">
-				<a class="navbar-brand page-scroll" href="mainPage.jsp">TapMinder | Welcome, ${currentUser.firstname}! </a>
+				<a class="navbar-brand page-scroll" href="mainPage.jsp">TapMinder
+					| Welcome, ${currentUser.firstname}! </a>
 			</c:if>
 			<c:if test="${currentUser.id < 1}">
 				<a class="navbar-brand page-scroll" href="initPage.do">TapMinder</a>
@@ -78,23 +79,48 @@
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
-					<c:if test="${currentUser.id > 0 }">
-		<div class="collapse navbar-collapse"
-			id="bs-example-navbar-collapse-1">
-			<form action="menu.do" method="POST">
-				<ul class="nav navbar-nav navbar-right">
-						<li><button type="submit" style="color:rgb(220,220,220)"class="btn btn-link nav-links"
-								name="menuChoice" value="myAccount">Manage Account</button></li>
-						<li><button type="submit" style="color:rgb(220,220,220)"class="btn btn-link nav-links"
-								name="menuChoice" value="viewUserBeers">View Beers</button></li>
-						<li><button type="submit" style="color:rgb(220,220,220)" class="btn btn-link nav-links"
-								name="menuChoice" value="logout">Logout ${currentUser.firstname} ${currentUser.lastname }</button></li>
-				</ul>
-			</form>
-		</div>
-					</c:if>
+		<c:if test="${currentUser.id > 0 }">
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<form action="menu.do" method="POST">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<div class="btn-group">
+								<button type="button" style="color: rgb(220, 220, 220)" class="btn btn-link nav-links dropdown-toggle"
+									data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">
+									About Me / More Projects <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a target="_blank" href="http://www.alexmpeterson.com">My Webiste</a></li>
+									<li><a target="_blank" href="http://www.alexmpeterson.com/projects.php">More of my projects</a></li>
+									
+									<li role="separator" class="divider"></li>
+									<li><a target="_blank" href="http://www.alexmpeterson.com/tapminder.php">TapMinder information Page</a></li>
+								</ul>
+							</div>
+
+						</li>
+						
+						<li><button type="submit" style="color: rgb(220, 220, 220)"
+								class="btn btn-link nav-links" name="menuChoice"
+								value="myAccount">Manage Account</button></li>
+						<li><button type="submit" style="color: rgb(220, 220, 220)"
+								class="btn btn-link nav-links" name="menuChoice"
+								value="viewUserBeers">View Beers</button></li>
+						<li><button type="submit" style="color: rgb(220, 220, 220)"
+								class="btn btn-link nav-links" name="menuChoice" value="logout">Logout
+								${currentUser.firstname} ${currentUser.lastname }</button></li>
+
+						
+
+
+					</ul>
+				</form>
+			</div>
+		</c:if>
 		<!-- /.navbar-collapse -->
 	</div>
 	<!-- /.container-fluid --> </nav>
-	
-	<div class="top-spacer"> </div>
+
+	<div class="top-spacer"></div>
