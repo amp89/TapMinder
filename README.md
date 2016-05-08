@@ -24,10 +24,16 @@ TapMinder allows it's users to remember which beers they liked, and where they h
 * Leave the string (text) searches blank to view all results.
 
 ### Team
- * Live project: (https://github.com/user/repo/blob/branch/other_file.md)
+
  * Angel Moreira - [Personal website](http://www.armoreira.com/)
- * Chad Arroyo - [Personal website] (http://www.chadarroyo.com/)
- * Me (Alex Peterson) - [Personal website] (http://www.alexmpeterson.com/)
+ * Chad Arroyo - [Personal website](http://www.chadarroyo.com/)
+ * Me (Alex Peterson) - [Personal website](http://www.alexmpeterson.com/)
+ * Live project: [Click here to view live project!](http://52.38.169.195:8080/TapMinder/)
+ ######Test it out with these login credentials (Admin recommended to see full functionality).
+
+ * ADMIN: email: admin@admin.fake   password: pwd (Use this one to see everything)
+ * MODERATOR: email: mod@mod.fake   password: pwd
+ * EMAIL: email: standard@standard.fake   password: pwd
 
 ##Technologies used
   * Java
