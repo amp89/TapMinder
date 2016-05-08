@@ -1,5 +1,6 @@
 # TapMinder
 This was a group project at Skill Distillery.
+My project description page: - [alexmpeterson.com/tapminder.php](http://www.alexmpeterson.com/tapminder.php)
 
 ###Purpose
 TapMinder allows it's users to remember which beers they liked, and where they had them.  The WebApp also enables users to view ratings of various beers, on a scale from 1 to 5.  There search functionality for breweries, as well as beers.
@@ -29,7 +30,7 @@ TapMinder allows it's users to remember which beers they liked, and where they h
  * Chad Arroyo - [Personal website](http://www.chadarroyo.com/)
  * Me (Alex Peterson) - [Personal website](http://www.alexmpeterson.com/)
  * Live project: [Click here to view live project!](http://52.38.169.195:8080/TapMinder/)
- ######Test it out with these login credentials (Admin recommended to see full functionality).
+ ######Test it out with these login credentials (Admin recommended to see full functionality).  Also please note that the data used, although is mostly real, is just test data, and the photos are only stock photos.
 
  * ADMIN: email: admin@admin.fake   password: pwd (Use this one to see everything)
  * MODERATOR: email: mod@mod.fake   password: pwd
@@ -39,7 +40,10 @@ TapMinder allows it's users to remember which beers they liked, and where they h
   * Java
   * Spring MVC
   * JPA (Java Persistence API)
+  * JPQL (Java Persistence Query Language).
   * MySQL
   * HTML/CSS
   * Bootstrap
   * Tomcat / Apache
+  * JSP (Java Server Pages)
+  * JSTL (JSP Standard Tag Library)
