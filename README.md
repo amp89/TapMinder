@@ -14,12 +14,12 @@ TapMinder allows it's users to remember which beers they liked, and where they h
 * Multi-level user permissions (standard, moderator, admin) with different functionality
 
 ####Searching:
-###### Beers
+##### Beers
 
 * Search by Name, ABV, Hop Count, Style, Rating, or Brewery.
 * Leave the string (text) searches blank to view all results.
 
-###### Breweries
+##### Breweries
 * Search by Name, Street, City, Zip, and neighborhood
 * Leave the string (text) searches blank to view all results.
 
